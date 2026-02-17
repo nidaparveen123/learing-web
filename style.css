@@ -1,0 +1,124 @@
+body{
+    /* background-color: gray; */
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand, .nav-link{
+    color: rgba(254, 166, 0);
+    font-size: large;
+}
+
+.hero-container{
+    background-color: rgba(0, 0, 0, 0.586);
+    overflow-x: hidden;
+
+}
+.hero{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;  
+} 
+
+.hero-content{
+    padding-top: 150px;
+    border-radius: 10px;
+}
+
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+    height: 230px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.862);
+}
+/* .heading{
+      background-color: rgba(128, 128, 128, 0.247);
+
+} */
+
+.about-us{
+     display: flex;
+  align-items: center; /* vertical alignment
+  gap: 20px;  
+}
+
+.about-us img{
+    width: 200px;        /* adjust as needed */
+  height: auto;
+}
+
+
+
+.login-container {
+  width: 320px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #333;
+}
+
+.small-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.small-text a {
+  color: #111;
+  text-decoration: none;
+}
+
+/* .button-1{
+  color:rgba(254, 166, 0);
+}
+
+.button-2:hover{
+  color: rgba(0, 193, 223);
+} */
