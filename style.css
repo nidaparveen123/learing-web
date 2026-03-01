@@ -121,7 +121,17 @@ body{
     object-fit: cover;
 }
 
-
+.signup{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/signup.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;  
+} 
 
 .footer {
   background-color: #111;
@@ -151,3 +161,98 @@ body{
   text-align: center;
   margin-top: 20px;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+}
+
+.section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2d2d5a;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #666;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #eae9e4;
+    padding: 40px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #dcdbe6;
+}
+
+.card h3 {
+    margin: 20px 0 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+
+.card span {
+    display: block;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #2d2d5a;
+    color: #2d2d5a;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background: #2d2d5a;
+    color: #fff;
+}
+
+
+
+.hero-about-us{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;  
+} 
