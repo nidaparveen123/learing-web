@@ -11,4 +11,21 @@
       modal.style.display = "none";
     }
   };
+
+
+
+ 
+
+const wrapper = document.getElementById("reviewsWrapper");
+
+document.querySelector(".next").onclick = () => {
+wrapper.scrollBy({ left: 300, behavior: 'smooth' });
+}
+
+document.querySelector(".prev").onclick = () => {
+wrapper.scrollBy({ left: -300, behavior: 'smooth' });
+}
+
 </script>
+
+
