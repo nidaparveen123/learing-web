@@ -16,7 +16,7 @@
 
  
 
-const wrapper = document.getElementById("reviewsWrapper");
+{/* const wrapper = document.getElementById("reviewsWrapper");
 
 document.querySelector(".next").onclick = () => {
 wrapper.scrollBy({ left: 300, behavior: 'smooth' });
@@ -24,7 +24,7 @@ wrapper.scrollBy({ left: 300, behavior: 'smooth' });
 
 document.querySelector(".prev").onclick = () => {
 wrapper.scrollBy({ left: -300, behavior: 'smooth' });
-}
+} */}
 
 </script>
 
