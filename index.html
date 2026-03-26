@@ -16,7 +16,7 @@
   <!-- navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./images/finallogo.png" alt="Logo" width="150"></a>
+      <a class="navbar-brand" href="./index.html"><img src="./images/finallogo.png" alt="Logo" width="150"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,18 +24,44 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about-us.html">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="courses.html">Courses</a>
-          </li>
-          <li class="nav-item">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Software
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="./blog.html">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+            <li><a class="dropdown-item" href="#">6 Weeks & 6 Months Industrial Training</a></li>
+            <li><a class="dropdown-item" href="#">Generative AI</a></li>
+            <li><a class="dropdown-item" href="#">AI Prompt Engineering</a></li>
+            <li><a class="dropdown-item" href="#">Agentic AI</a></li>
+            <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+            <li><a class="dropdown-item" href="#">Business Analytics</a></li>
+            <li><a class="dropdown-item" href="#">C & C++</a></li>
+            <li><a class="dropdown-item" href="#">MySQL</a></li>
+          </ul>
+        </li>
+          
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Web
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="./courses.html">Python</a></li>
+            <li><a class="dropdown-item" href="#">MERN and MEAN</a></li>
+            <li><a class="dropdown-item" href="#">Full Stack</a></li>
+            <li><a class="dropdown-item" href="#">Java</a></li>
+            <li><a class="dropdown-item" href="#">PHP Web Development</a></li>
+            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+            <li><a class="dropdown-item" href="#">Web Designing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="contact.html">contact</a>
           </li>
         </ul>
@@ -242,6 +268,56 @@
   </section>
 
 
+
+  <!-- section 3 -->
+
+
+  <section id="nx-wrapper">
+
+  <!-- Top Section -->
+  <div id="nx-row-1" class="nx-row">
+    
+    <div id="nx-img-box-1" class="nx-col">
+      <img src="./images/section3(1).webp" alt="Student working">
+    </div>
+
+    <div id="nx-text-box-1" class="nx-col">
+      <h2 id="nx-heading-1">Best selection of Job Oriented courses</h2>
+      <p>
+        Netmax Technologies, an ISO certified institution, stands as a model of excellence in Chandigarh, delivering unparalleled training across a spectrum of cutting-edge courses.
+      </p>
+      <p>
+        Hands-on training in Data Science, Game Development, Web Development, Automation, Digital Marketing and App Development.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Section -->
+  <div id="nx-row-2" class="nx-row nx-reverse">
+    
+    <div id="nx-text-box-2" class="nx-col">
+      <h2 id="nx-heading-2">Product Design and Development</h2>
+      <p>Netmax has completed various projects. Such as :</p>
+      <ul id="nx-list-1">
+        <li>Bullet Velocity Measurement (CSIO), and Shadowgraphy for TBRL(DRDO).</li>
+        <li>IIOT Sensors, Smart Energy Meters, CNC/PLC Digitisation & Machine Learning Based Sensors.</li>
+        <li>Industry-focused learning aligned with Industry 4.0, Computer Vision, and Smart City Solutions</li>
+      </ul>
+    </div>
+
+    <div id="nx-img-box-2" class="nx-col">
+      <img src="./images/section3(2).webp" alt="Engineering work">
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- signup -->
+
+
   <div class="signup mt-5">
    <section class="signup-content">
 
@@ -398,6 +474,8 @@
 
 
 
+
+    <link rel="stylesheet" href="script.js">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>

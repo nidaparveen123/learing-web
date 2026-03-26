@@ -1,31 +1,16 @@
-<script>
-  const modal = document.getElementById("loginModal");
-  const openBtn = document.getElementById("openLogin");
-  const closeBtn = document.querySelector(".close");
+const toggleBtn = document.getElementById("theme-toggle");
 
-  openBtn.onclick = () => modal.style.display = "flex";
-  closeBtn.onclick = () => modal.style.display = "none";
-
-  window.onclick = (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
-    }
-  };
-
-
-
- 
-
-{/* const wrapper = document.getElementById("reviewsWrapper");
-
-document.querySelector(".next").onclick = () => {
-wrapper.scrollBy({ left: 300, behavior: 'smooth' });
+// Load saved theme
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
 }
 
-document.querySelector(".prev").onclick = () => {
-wrapper.scrollBy({ left: -300, behavior: 'smooth' });
-} */}
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
 
-</script>
-
-
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
+});
