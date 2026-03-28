@@ -66,8 +66,8 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <button class="btn btn-success me-3 button-1" type="submit">Sign in</button>
-          <button class="btn btn-outline-success button-2" type="button" href="/login.html">Login</button>
+          <a href="login.php" class="btn btn-outline-success ms-2">Login</a>
+          <a href="signup.php" class="btn btn-outline-success ms-2">Sign Up</a>
         </form>
       </div>
     </div>
@@ -80,13 +80,13 @@
     <div class="container-fluid hero-container">
       <div class="row">
         <div class="col-md-6 light ms-auto me-auto text-center mt-5 hero-content">
-          <h1 class="display-4 fw-bold">Welcome to Our Website</h1>
+          <h1 class="display-4 fw-bold">Welcome to Mind Space</h1>
           <p class="lead">
             This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
             content or information.
           </p>
-          <a class="btn btn-primary btn-lg button-1" href="#" role="button">Learn more</a>
-          <a class="btn btn-primary btn-lg button-2" href="#" role="button">Visit Courses</a>
+          <a class="btn btn-primary btn-lg button-1" href="./about-us.html" role="button">Learn more</a>
+          <a class="btn btn-primary btn-lg button-2" href="./courses.html" role="button">Visit Courses</a>
         </div>
       </div>
     </div>
@@ -314,59 +314,6 @@
 
 </section>
 
-
-<!-- signup -->
-
-
-  <div class="signup mt-5">
-   <section class="signup-content">
-
-  <div class="left-content">
-
-    <p class="sub-text">Get 100 Online Courses for Free</p>
-    <h1>Registration To Get It</h1>
-
-    <div class="countdown">
-
-      <div class="time-box">
-        <span>18</span>
-        <p>Days</p>
-      </div>
-
-      <div class="time-box">
-        <span>23</span>
-        <p>Hours</p>
-      </div>
-
-      <div class="time-box">
-        <span>06</span>
-        <p>Minutes</p>
-      </div>
-
-      <div class="time-box">
-        <span>58</span>
-        <p>Seconds</p>
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <div class="form-box">
-
-    <h3>Create Free Account NOW!</h3>
-
-    <input type="text" placeholder="Name">
-    <input type="email" placeholder="Email ID">
-    <input type="text" placeholder="Contact Number">
-
-    <button>Submit Form</button>
-
-  </div>
-
-</section>
-  </div>
 
   <!-- expert card -->
 
