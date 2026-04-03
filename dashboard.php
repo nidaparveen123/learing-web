@@ -1,10 +1,18 @@
 <?php
 session_start();
+include 'db.php';
 
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");
     exit();
 }
+
+$email = $_SESSION['user'];
+$result = $conn->query("SELECT * FROM users WHERE email='$email'");
+$user = $result->fetch_assoc();
+
+// get page
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 ?>
 
 <!DOCTYPE html>
@@ -14,40 +22,76 @@ if (!isset($_SESSION['user'])) {
   <style>
     body {
       font-family: Arial;
-      background: #f2f2f2;
+      margin: 0;
+    }
+
+    .menu a:hover {
+  color: #3498db;
+}
+
+    .header {
+      background: #3498db;
+      color: white;
+      padding: 15px;
       text-align: center;
     }
 
-    .box {
-      background: white;
-      padding: 30px;
-      margin: 100px auto;
-      width: 350px;
-      box-shadow: 0 0 10px gray;
+    .menu {
+      background: #eee;
+      padding: 10px;
+      text-align: center;
     }
 
-    a {
-      display: block;
+    .menu a {
       margin: 10px;
       text-decoration: none;
-      background: #3498db;
-      color: white;
-      padding: 10px;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 20px;
     }
   </style>
 </head>
 <body>
 
-<div class="box">
+<div class="header">
   <h2>🎓 Student Dashboard</h2>
+  <p>Welcome, <?php echo $user['name']; ?> 👋</p>
+</div>
 
-  <p>Welcome, <?php echo $_SESSION['user']; ?> 👋</p>
+<div class="menu">
+  <a href="dashboard.php?page=home">Dashboard</a>
+  <a href="dashboard.php?page=courses">Courses</a>
+  <a href="dashboard.php?page=attendance">Attendance</a>
+  <a href="dashboard.php?page=marks">Marks</a>
+  <a href="logout.php">Logout</a>
+</div>
 
-  <a href="#">Profile</a>
-  <a href="#">Courses</a>
-  <a href="#">Attendance</a>
+<div class="content">
 
-  <a href="logout.php" style="background:red;">Logout</a>
+<?php
+if ($page == 'home') {
+    echo "<h3>Overview</h3>";
+    echo "Welcome to your student panel.";
+}
+
+elseif ($page == 'courses') {
+    echo "<h3>My Course</h3>";
+    echo $user['course'];
+}
+
+elseif ($page == 'attendance') {
+    echo "<h3>Attendance</h3>";
+    echo $user['attendance'] . "%";
+}
+
+elseif ($page == 'marks') {
+    echo "<h3>Marks</h3>";
+    echo $user['marks'];
+}
+?>
+
 </div>
 
 </body>

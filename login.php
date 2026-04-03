@@ -30,6 +30,7 @@ include 'db.php';
     <button name="login">Login</button>
 
     <p>Don't have an account? <a href="signup.php">Sign up</a></p>
+    <p> back to <a href="index.php">Home</a></p>
     <a
   </form>
 </div>

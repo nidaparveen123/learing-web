@@ -16,7 +16,7 @@
   <!-- navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="./images/finallogo.png" alt="Logo" width="150"></a>
+      <a class="navbar-brand" href="./index.php"><img src="./images/finallogo.png" alt="Logo" width="150"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about-us.html">About Us</a>
@@ -34,16 +34,10 @@
             Software
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="./blog.html">Machine Learning</a></li>
-            <li><a class="dropdown-item" href="#">Data Science</a></li>
-            <li><a class="dropdown-item" href="#">6 Weeks & 6 Months Industrial Training</a></li>
-            <li><a class="dropdown-item" href="#">Generative AI</a></li>
-            <li><a class="dropdown-item" href="#">AI Prompt Engineering</a></li>
-            <li><a class="dropdown-item" href="#">Agentic AI</a></li>
-            <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-            <li><a class="dropdown-item" href="#">Business Analytics</a></li>
-            <li><a class="dropdown-item" href="#">C & C++</a></li>
-            <li><a class="dropdown-item" href="#">MySQL</a></li>
+            <li><a class="dropdown-item" href="./courses.php#machineLearningSection">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="./courses.php#dataScienceSection">Data Science</a></li>
+            <li><a class="dropdown-item" href="./courses.php#generativeAIsection">Generative AI</a></li>
+            <li><a class="dropdown-item" href="./courses.php#cAndCppSection">C & C++</a></li>
           </ul>
         </li>
           
@@ -52,13 +46,9 @@
             Web
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="./courses.html">Python</a></li>
-            <li><a class="dropdown-item" href="#">MERN and MEAN</a></li>
-            <li><a class="dropdown-item" href="#">Full Stack</a></li>
-            <li><a class="dropdown-item" href="#">Java</a></li>
-            <li><a class="dropdown-item" href="#">PHP Web Development</a></li>
-            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-            <li><a class="dropdown-item" href="#">Web Designing</a></li>
+            <li><a class="dropdown-item" href="./courses.php#fullStackSection">Full Stack</a></li>
+            <li><a class="dropdown-item" href="./courses.php#javaSection">Java</a></li>
+            <li><a class="dropdown-item" href="./courses.php#digitalMarketingSection">Digital Marketing</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -86,7 +76,7 @@
             content or information.
           </p>
           <a class="btn btn-primary btn-lg button-1" href="./about-us.html" role="button">Learn more</a>
-          <a class="btn btn-primary btn-lg button-2" href="./courses.html" role="button">Visit Courses</a>
+          <a class="btn btn-primary btn-lg button-2" href="./courses.php" role="button">Visit Courses</a>
         </div>
       </div>
     </div>
@@ -269,50 +259,7 @@
 
 
 
-  <!-- section 3 -->
-
-
-  <section id="nx-wrapper">
-
-  <!-- Top Section -->
-  <div id="nx-row-1" class="nx-row">
-    
-    <div id="nx-img-box-1" class="nx-col">
-      <img src="./images/section3(1).webp" alt="Student working">
-    </div>
-
-    <div id="nx-text-box-1" class="nx-col">
-      <h2 id="nx-heading-1">Best selection of Job Oriented courses</h2>
-      <p>
-        Netmax Technologies, an ISO certified institution, stands as a model of excellence in Chandigarh, delivering unparalleled training across a spectrum of cutting-edge courses.
-      </p>
-      <p>
-        Hands-on training in Data Science, Game Development, Web Development, Automation, Digital Marketing and App Development.
-      </p>
-    </div>
-
-  </div>
-
-  <!-- Bottom Section -->
-  <div id="nx-row-2" class="nx-row nx-reverse">
-    
-    <div id="nx-text-box-2" class="nx-col">
-      <h2 id="nx-heading-2">Product Design and Development</h2>
-      <p>Netmax has completed various projects. Such as :</p>
-      <ul id="nx-list-1">
-        <li>Bullet Velocity Measurement (CSIO), and Shadowgraphy for TBRL(DRDO).</li>
-        <li>IIOT Sensors, Smart Energy Meters, CNC/PLC Digitisation & Machine Learning Based Sensors.</li>
-        <li>Industry-focused learning aligned with Industry 4.0, Computer Vision, and Smart City Solutions</li>
-      </ul>
-    </div>
-
-    <div id="nx-img-box-2" class="nx-col">
-      <img src="./images/section3(2).webp" alt="Engineering work">
-    </div>
-
-  </div>
-
-</section>
+ 
 
 
   <!-- expert card -->
@@ -381,7 +328,7 @@
     <div class="footer-container">
 
       <div class="footer-section">
-        <h3>My Website</h3>
+        <h3><img src="./images/finallogo.png" alt="Logo" width="200"></h3>
         <p>Learning web development step by step.</p>
       </div>
 

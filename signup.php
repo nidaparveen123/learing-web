@@ -28,6 +28,8 @@ include 'db.php';
 
   <button type="submit" name="register">Register</button>
     <p>Already have an account? <a href="login.php">Login</a></p>
+    <p> back to <a href="index.php">Home</a></p>
+
 </form>
 </div>
 <?php
