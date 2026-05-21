@@ -24,8 +24,11 @@ include 'db.php';
 
   <input type="text" name="name" placeholder="Name" required><br>
   <input type="email" name="email" placeholder="Email" required><br>
-  <input type="password" name="password" placeholder="Password" required><br>
-
+<div style="position: relative;">
+  <input type="password" id="password" name="password" placeholder="Password" required>
+  <i class="fa fa-eye mt-2" id="togglePassword" 
+     style="position:absolute; right:10px; top:12px; cursor:pointer;"></i>
+</div>
   <button type="submit" name="register">Register</button>
     <p>Already have an account? <a href="login.php">Login</a></p>
     <p> back to <a href="index.php">Home</a></p>
@@ -51,6 +54,20 @@ if (isset($_POST['register'])) {
 }
 ?>
 
+
+
+
+<script>
+const toggle = document.getElementById("togglePassword");
+const password = document.getElementById("password");
+
+toggle.addEventListener("click", function () {
+    const type = password.type === "password" ? "text" : "password";
+    password.type = type;
+
+    this.classList.toggle("fa-eye-slash");
+});
+</script>
    <link rel="stylesheet" href="script.js">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

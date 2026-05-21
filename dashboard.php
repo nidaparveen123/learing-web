@@ -1,3 +1,5 @@
+
+
 <?php
 session_start();
 include 'db.php';
@@ -18,16 +20,18 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Student Dashboard</title>
   <style>
+    
     body {
       font-family: Arial;
       margin: 0;
     }
 
     .menu a:hover {
-  color: #3498db;
-}
+      color: #3498db;
+    }
 
     .header {
       background: #3498db;
@@ -50,6 +54,13 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
     .content {
       padding: 20px;
+    }
+
+    .container {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
     }
   </style>
 </head>
@@ -74,6 +85,18 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 if ($page == 'home') {
     echo "<h3>Overview</h3>";
     echo "Welcome to your student panel.";
+    echo '<div class="container">';
+    echo '<h3>Pay Fee</h3>';
+    echo '<label>Select Payment Method:</label>';
+    echo '<select id="method">';
+    echo '<option>UPI</option>';
+    echo '<option>Card</option>';
+    echo '<option>Net Banking</option>';
+    echo '</select>';
+    echo '<br><br>';
+    echo '<button onclick="payNow()">Pay Now</button>';
+    echo '<p id="msg"></p>';
+    echo '</div>';
 }
 
 elseif ($page == 'courses') {
@@ -94,5 +117,18 @@ elseif ($page == 'marks') {
 
 </div>
 
+<script>
+function payNow() {
+  let method = document.getElementById("method").value;
+
+  document.getElementById("msg").innerHTML =
+    "Processing payment via " + method + "...";
+
+  setTimeout(() => {
+    document.getElementById("msg").innerHTML =
+      "✅ Payment Successful! Transaction ID: TXN" + Math.floor(Math.random()*1000000);
+  }, 2000);
+}
+</script>
 </body>
 </html>

@@ -52,7 +52,7 @@
           </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">contact</a>
+            <a class="nav-link" href="contact.php">contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -72,8 +72,7 @@
         <div class="col-md-6 light ms-auto me-auto text-center mt-5 hero-content">
           <h1 class="display-4 fw-bold">Welcome to Mind Space</h1>
           <p class="lead">
-            This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
-            content or information.
+            “Dive into the latest in technology, AI, and digital trends.”
           </p>
           <a class="btn btn-primary btn-lg button-1" href="./about-us.html" role="button">Learn more</a>
           <a class="btn btn-primary btn-lg button-2" href="./courses.php" role="button">Visit Courses</a>
@@ -87,14 +86,14 @@
   <div class="heading container">
     <h2 class="text-center cex-title fs-1 mt-5 fw-bold">Awesome Features</h2>
     <p class="text-center cex-title lead fw-bold mt-3 mb-5">
-      Replenish man have thing gathering lights yielding shall you </p>
+      “Dive into the latest in technology, AI, and digital trends.” </p>
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col">
         <div class="about-card h-100 w-100">
           <div class="card-body">
             <i class="fas fa-graduation-cap fa-3x"></i>
             <h5 class="card-title">Scholorship Facility</h5>
-            <p class="card-text">One make creepeth, man bearing theira firmament won't great heaven.</p>
+            <p class="card-text">Expert-led courses designed to give you in-demand tech skills with real-world applications.</p>
           </div>
         </div>
       </div>
@@ -103,7 +102,7 @@
           <div class="card-body">
             <i class="fas fa-book fa-3x"></i>
             <h5 class="card-title">Dell Online Course</h5>
-            <p class="card-text">One make creepeth, man bearing theira firmament won't great heaven</p>
+            <p class="card-text">Hands-on projects and practical learning experiences to help you build and showcase your knowledge.</p>
           </div>
         </div>
       </div>
@@ -112,7 +111,7 @@
           <div class="card-body">
             <i class="fas fa-award fa-3x"></i>
             <h5 class="card-title">Global Certification</h5>
-            <p class="card-text">One make creepeth, man bearing theira firmament won't great heaven</p>
+            <p class="card-text">Flexible and easy-to-follow content that lets you learn anytime, anywhere at your own pace.</p>
           </div>
         </div>
       </div>
@@ -127,15 +126,13 @@
   <div class="heading container">
     <h2 class="text-center cex-title fs-1 mt-5 fw-bold">Our Popular Courses</h2>
     <p class="text-center cex-title lead fw-bold mt-3 mb-5">
-      Replenish man have thing gathering lights yielding shall you</p>
+      “Dive into the latest in technology, AI, and digital trends.”</p>
     <div class="card-group g-3">
       <div class="card">
         <img src="./images/c1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Full Stack Development (Mern Stack)</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">A full-stack developer is a software professional capable of creating both the front-end (user-facing) and back-end (server-side, database) components of websites and applications.</p>
         </div>
       </div>
       <div class="card">
@@ -143,17 +140,14 @@
         <div class="card-body">
           <h5 class="card-title">
             Data Science, Machine Learning & Gen AI + Python</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI) and machine learning with specific subject matter expertise</p>
         </div>
       </div>
       <div class="card">
         <img src="./images/c3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Data Analytics + Python Programming</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text"> data scientists conduct an exploratory data analysis to examine biases, patterns, ranges, and distributions of values within the data. </p>
         </div>
       </div>
     </div>
@@ -164,26 +158,21 @@
         <div class="card-body">
           <h5 class="card-title">Digital Marketing Training Program (WordPress)
           </h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">Digital marketing refers to the use of digital technologies and platforms to promote products, services or concepts to potential customers..</p>
         </div>
       </div>
       <div class="card">
         <img src="./images/c5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cyber Security with CCNA, Linux & Cloud</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">Cybersecurity courses prepare individuals to protect systems and data from digital attacks, covering areas like network security, ethical hacking, and risk management.</p>
         </div>
       </div>
       <div class="card">
         <img src="./images/c6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cyber Security with CCNA, Linux & Cloud</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">Cybersecurity courses prepare individuals to protect systems and data from digital attacks, covering areas like network security, ethical hacking, and risk management.</p>
         </div>
       </div>
     </div>
@@ -191,7 +180,7 @@
 
   <!-- review section -->
 
-  <section class="reviews-section">
+  <section class="reviews-section" id="reviews">
     <h2>Our Student's Reviews</h2>
 
     <div class="reviews-container">
@@ -323,48 +312,53 @@
   </section>
 
 
-  <!-- footer -->
-  <footer class="footer mt-5">
-    <div class="footer-container">
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-container">
 
-      <div class="footer-section">
+    <div class="footer-section">
         <h3><img src="./images/finallogo.png" alt="Logo" width="200"></h3>
-        <p>Learning web development step by step.</p>
-      </div>
-
-
-      <div class="footer-section">
-        <h3>Company</h3>
-        <a href="#">About us</a><br>
-        <a href="#">Hire our students</a><br>
-        <a href="#">Blogs</a><br>
-        <a href="#">Podcasts</a>
-      </div>
-
-      <div class="footer-section">
-        <h3>Resources</h3>
-        <a href="#">Hacker block</a><br>
-        <a href="#">IDE</a><br>
-        <a href="#">Blogs</a><br>
-        <a href="#">Podcasts</a>
-      </div>
-
-      <div class="footer-section">
-        <h3>Links</h3>
-        <a href="#">Home</a><br>
-        <a href="#">Login</a><br>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="footer-section">
-        <h3>Contact</h3>
-        <p>Email: my@email.com</p>
-      </div>
-
+      <p>Learning web development step by step.</p>
     </div>
 
-    <p class="footer-bottom mt-5">Copyright © 2026 All rights reserved</p>
-  </footer>
+
+     <div class="footer-section">
+      <h3>Company</h3>
+      <a href="./about-us.html">About us</a><br>
+      <a href="./courses.php">Courses</a><br>
+      <a href="./courses.php#machineLearningSection">Machine Learning</a><br>
+      <a href="./courses.php#fullStackSection">Full Stack</a>
+    </div>
+
+      <div class="footer-section">
+      <h3>Resources</h3>
+      <a href="./signup.php">Sign Up</a><br>
+      <a href="./index.php#reviews">Reviews</a><br>
+      <a href="./index.php#contact-form">Demo</a><br>
+      <a href="./courses.php#cAndCppSection">C & C++</a>
+    </div>
+
+    <div class="footer-section">
+      <h3>Links</h3>
+      <a href="./index.php">Home</a><br>
+      <a href="login.php">Login</a><br>
+      <a href="contact.php">Contact</a>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: nidaparveen634@email.com</p>
+      <p><div class="cex-socials">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+        </div></p>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© 2026 All rights reserved</p>
+</footer>
 
 
 

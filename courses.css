@@ -76,4 +76,9 @@ footer {
   margin-right: -50vw;
   width: 100vw;
 }
+
+.cb-phone {
+  display: none;
+  margin-top: 10px;
+}
  

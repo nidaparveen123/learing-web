@@ -14,6 +14,12 @@
 
 </head>
 
+<script>
+function cbShowNumber() {
+  document.getElementById("cbPhone").style.display = "block";
+}
+</script>
+
 <body>
     <!-- navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -54,7 +60,7 @@
           </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">contact</a>
+            <a class="nav-link" href="contact.php">contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -72,7 +78,7 @@
         <div class="col-md-6 light ms-auto me-auto text-center mt-5 hero-content">
           <h1 class="display-4 fw-bold">Welcome to Mind Space</h1>
           <p class="lead">
-            This is a simple hero unit
+            Structured courses designed for real-world impact.”
           </p>
         </div>
       </div>
@@ -399,33 +405,38 @@ This information provides reference information about include files, runtime fun
       </div>
 
 
-      <div class="footer-section">
-        <h3>Company</h3>
-        <a href="#">About us</a><br>
-        <a href="#">Hire our students</a><br>
-        <a href="#">Blogs</a><br>
-        <a href="#">Podcasts</a>
-      </div>
+       <div class="footer-section">
+      <h3>Company</h3>
+      <a href="./about-us.html">About us</a><br>
+      <a href="./courses.php">Courses</a><br>
+      <a href="./courses.php#machineLearningSection">Machine Learning</a><br>
+      <a href="./courses.php#fullStackSection">Full Stack</a>
+    </div>
 
       <div class="footer-section">
-        <h3>Resources</h3>
-        <a href="#">Hacker block</a><br>
-        <a href="#">IDE</a><br>
-        <a href="#">Blogs</a><br>
-        <a href="#">Podcasts</a>
-      </div>
+      <h3>Resources</h3>
+      <a href="./signup.php">Sign Up</a><br>
+      <a href="./index.php#reviews">Reviews</a><br>
+      <a href="./index.php#contact-form">Demo</a><br>
+      <a href="./courses.php#cAndCppSection">C & C++</a>
+    </div>
 
-      <div class="footer-section">
-        <h3>Links</h3>
-        <a href="#">Home</a><br>
-        <a href="#">Login</a><br>
-        <a href="#">Contact</a>
-      </div>
+    <div class="footer-section">
+      <h3>Links</h3>
+      <a href="./index.php">Home</a><br>
+      <a href="login.php">Login</a><br>
+      <a href="contact.php">Contact</a>
+    </div>
 
-      <div class="footer-section">
-        <h3>Contact</h3>
-        <p>Email: my@email.com</p>
-      </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: nidaparveen634@email.com</p>
+      <p><div class="cex-socials">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+        </div></p>
+    </div>
 
     </div>
 

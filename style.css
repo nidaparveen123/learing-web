@@ -402,6 +402,7 @@ box-shadow:0 3px 10px rgba(0,0,0,0.2);
 
 /* contact page */
 
+
 .contact-section {
   background: #eef0f6;
   padding: 60px 20px;
@@ -445,6 +446,8 @@ box-shadow:0 3px 10px rgba(0,0,0,0.2);
 }
 
 /* Button */
+
+
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -563,6 +566,8 @@ box-shadow:0 3px 10px rgba(0,0,0,0.2);
   margin-bottom: 20px;
   border-radius: 3px;
 }
+
+
 
 .nt-checkbox {
   width: 22px;
@@ -684,10 +689,7 @@ box-shadow:0 3px 10px rgba(0,0,0,0.2);
   padding: 20px 0;
 }
 
-.footer-img{
-  width: 120px;
-  margin-bottom: 20px;
-}
+
 
 .footer-container {
   display: flex;
@@ -733,7 +735,7 @@ box-shadow:0 3px 10px rgba(0,0,0,0.2);
 
 .form-box h3{
     margin-bottom:25px;
-    color:black;
+    color:#101C32;
 }
 
 .form-box input{

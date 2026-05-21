@@ -13,6 +13,25 @@
 </head>
 
 <body>
+  <?php
+include 'db.php';
+
+if (isset($_POST['submit'])) {
+
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    $conn->query("INSERT INTO enquiries (name, phone, message)
+                  VALUES ('$name', '$phone', '$message')");
+
+    echo "<script>alert('Enquiry submitted successfully!');</script>";
+}
+
+
+?>
+
+
    <!-- navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -52,7 +71,7 @@
           </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">contact</a>
+            <a class="nav-link" href="contact.php">contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -95,7 +114,7 @@
       <p>Mail: mail@mindspace.com</p>
       <p>Ph. +918699-644644</p>
 
-      <a href="#" class="btn">Location</a>
+      <a href="https://share.google/k13D7WI5HXr0vQKQW" target="_blank" class="btn">Location</a>
     </div>
 
     <!-- Divider -->
@@ -110,11 +129,11 @@
         <strong>Full Stack Development</strong>?
       </p>
       <p>
-        Contact <strong>Netmax Technologies in Chandigarh</strong> today for more
+        Contact <strong>Mind Space in Chandigarh</strong> today for more
         information on our comprehensive training programs.
       </p>
 
-      <a href="#" class="btn">Call Us</a>
+      <a href="tel:+8054003455" class="btn">Call Us</a>
     </div>
 
   </div>
@@ -164,25 +183,20 @@
     </div>
 
     <!-- Right Form -->
-    <div class="nt-demo-right">
-      <form>
+    <div class="nt-demo-right" id="contact-form">
+      <form method="POST">
 
-        <div class="nt-row">
-          <input type="text" placeholder="Your Name">
-          <input type="text" placeholder="Phone Number">
-        </div>
+  <div class="nt-row">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+  </div>
 
-        <textarea placeholder="Message"></textarea>
+  <textarea name="message" placeholder="Message" required></textarea>
 
-        <!-- Fake captcha box (visual only) -->
-        <div class="nt-captcha">
-          <div class="nt-checkbox"></div>
-          <span>I'm not a robot</span>
-        </div>
+ 
+  <button type="submit" name="submit">Submit Enquiry</button>
 
-        <button type="submit">Submit Enquiry</button>
-
-      </form>
+</form>
     </div>
 
   </div>
@@ -200,35 +214,40 @@
 
      <div class="footer-section">
       <h3>Company</h3>
-      <a href="#">About us</a><br>
-      <a href="#">Hire our students</a><br>
-      <a href="#">Blogs</a><br>
-      <a href="#">Podcasts</a>
+      <a href="./about-us.html">About us</a><br>
+      <a href="./courses.php">Courses</a><br>
+      <a href="./courses.php#machineLearningSection">Machine Learning</a><br>
+      <a href="./courses.php#fullStackSection">Full Stack</a>
     </div>
 
       <div class="footer-section">
       <h3>Resources</h3>
-      <a href="#">Hacker block</a><br>
-      <a href="#">IDE</a><br>
-      <a href="#">Blogs</a><br>
-      <a href="#">Podcasts</a>
+      <a href="./signup.php">Sign Up</a><br>
+      <a href="./index.php#reviews">Reviews</a><br>
+      <a href="./index.php#contact-form">Demo</a><br>
+      <a href="./courses.php#cAndCppSection">C & C++</a>
     </div>
 
     <div class="footer-section">
       <h3>Links</h3>
-      <a href="#">Home</a><br>
-      <a href="#">Login</a><br>
-      <a href="#">Contact</a>
+      <a href="./index.php">Home</a><br>
+      <a href="login.php">Login</a><br>
+      <a href="contact.php">Contact</a>
     </div>
 
     <div class="footer-section">
       <h3>Contact</h3>
-      <p>Email: my@email.com</p>
+      <p>Email: nidaparveen634@email.com</p>
+      <p><div class="cex-socials">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+        </div></p>
     </div>
 
   </div>
 
-  <p class="footer-bottom">© 2026 My Website</p>
+  <p class="footer-bottom">© 2026 All rights reserved</p>
 </footer>
 
 
